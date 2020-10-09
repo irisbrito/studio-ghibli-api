@@ -1,0 +1,105 @@
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+header{
+  background-color: #54abd3;
+}
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+app-root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+app-films {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.card {
+  margin: 1rem;
+  /* border: 1px solid gray; */
+}
+
+.card:hover {
+}
+
+.principal {
+  background: #0f55eb;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.principal a{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+  margin: 0;
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: initial;
+}
+
+.container__aluna {
+  width: 200px;
+  margin: 20px;
+}
+
+.container__aluna-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+
+img {
+  margin: 1rem auto;
+  display: block;
+  max-width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}

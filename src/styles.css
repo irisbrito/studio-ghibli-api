@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+header{
+  background-color: #54abd3;
+}
+body {
+  text-align: center;
+  height: 100%;
+  background-color: #54abd3;
+  margin: 0px 0px 30px 0px;
+
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  text-align: justify;
+}
+
+p{
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+
+section{
+  width: 60%;
+  margin:0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.principal {
+  background: #0f55eb;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.principal a{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+  margin: 0;
+}
+
+app-root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+app-films {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.card {
+  margin: 1rem;
+  /* border: 1px solid gray; */
+}
+
+.card:hover {
+}
+
+
+
+img {
+  margin: 1rem auto;
+  display: block;
+  max-width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: initial;
+}
+
+.container__dev {
+  width: 200px;
+  margin: 20px;
+}
+
+.container__dev-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
