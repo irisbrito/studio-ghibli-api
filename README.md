@@ -2,7 +2,7 @@
 
 This project displays all Studio Ghibli movies and their details including: title, description, release year, rotten tomato's score and director.  
 
-<img src="poyno.gif" alt= "gif de poyno correndo na água com os braços para cima"/>
+<img src="poyno.gif" alt="gif de poyno correndo na água com os braços para cima"/>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
